@@ -85,3 +85,21 @@ ul{
 	color: #fff;
 	padding-left: 40px;
 }
+.header-search {
+	float: right;
+	margin-top: 50px;
+	margin-left: 55px;
+	position: relative;
+}
+.header-search i {
+	margin-left: 25px;
+	padding-left: 25px;
+}
+.header-search::before {
+	position: absolute;
+	content: "";
+	background: #cccccc;
+	height: 20px;
+	width: 2px;
+	top: 0px;
+}
