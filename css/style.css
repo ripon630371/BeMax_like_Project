@@ -1,0 +1,46 @@
+/*font family link*/
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900');
+body{
+	font-family: 'Lato', sans-serif;
+}
+/* default css style code*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+/*header area start*/
+.logo {
+	float: left;
+	margin-top: 42px;
+}
+.header-area {
+	border-top: 5px solid #F24259;
+	min-height: 120px;
+}
+.container{
+	width: 1170px;
+	margin: auto;
+}
+/*main-menu area start*/
+.main-menu {
+	float: right;
+}
+.main-menu ul{}
+.main-menu ul li {
+	display: inline-block;
+	margin-left: 20px;
+}
+.main-menu ul li a {
+	text-decoration: none;
+	margin: 50px 0px;
+	display: block;
+	color: #666666;
+	font-size: 15px;
+	font-weight: 700;
+}
