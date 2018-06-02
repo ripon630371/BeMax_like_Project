@@ -9,6 +9,9 @@ body{
 	padding: 0;
 	box-sizing: border-box;
 }
+.fix{
+	overflow: hidden;
+}
 ul{
 	margin: 0px;
 	padding: 0px;
@@ -102,4 +105,42 @@ ul{
 	height: 20px;
 	width: 2px;
 	top: 0px;
+}
+/*slider-area section*/
+.single-slider.fix {
+	width: 100%;
+	text-align: center;
+	padding: 175px 0px;
+	background-size: cover;
+	background-position: center bottom;
+}
+.slider-content h4{
+	color: #fff;
+	font-size: 30px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.slider-content h2 {
+	color: #fff;
+	font-size: 72px;
+	font-weight: 800;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+.slider-btn a {
+	text-decoration: none;
+	background: red;
+	padding: 20px 40px;
+	display: inline-block;
+	font-size: 18px;
+	color: #fff;
+	font-weight: 700;
+	background: #F24259;
+	transition: .5s;
+	border-radius: 5px;
+}
+.slider-btn a:hover{
+	background: #fff;
+	color: #F24259;
+	border-radius: 0px;
 }
