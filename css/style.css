@@ -107,6 +107,10 @@ ul{
 	top: 0px;
 }
 /*slider-area section*/
+.slider-area {
+	overflow: hidden;
+	width: 100%;
+}
 .single-slider.fix {
 	width: 100%;
 	text-align: center;
@@ -127,9 +131,8 @@ ul{
 	text-transform: uppercase;
 	margin-bottom: 50px;
 }
-.slider-btn a {
+.slider-content a {
 	text-decoration: none;
-	background: red;
 	padding: 20px 40px;
 	display: inline-block;
 	font-size: 18px;
@@ -139,7 +142,7 @@ ul{
 	transition: .5s;
 	border-radius: 5px;
 }
-.slider-btn a:hover{
+.slider-content a:hover{
 	background: #fff;
 	color: #F24259;
 	border-radius: 0px;
