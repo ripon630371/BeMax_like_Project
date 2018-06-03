@@ -400,3 +400,22 @@ label {
 .fas.fa-angle-right {
   color: #fff;
 }
+/*agency-content section*/
+.agency-content {
+  text-align: center;
+}
+.agency-area h2 {
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+}
+.extra-text span {
+  color: #F24259;
+  font-weight: 700;
+}
+.agency-area p {
+  font-size: 15px;
+  color: #666;
+  line-height: 1.6;
+  word-spacing: 1px;
+  margin-top: 22px;
+}
