@@ -215,9 +215,6 @@ label {
 .btn.btn-base.btn-link:hover {
 	color: #106fab;
 }
-.theme-bg {
-	background: #1696e7
-}
 .bg-white {
 	background-color: #ffffff;
 }
@@ -418,4 +415,30 @@ label {
   line-height: 1.6;
   word-spacing: 1px;
   margin-top: 22px;
+}
+/*cta-text section area*/
+.cta-text p {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+}
+.cta-text span {
+  font-size: 25px;
+}
+.hire-btn a {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  border: 2px solid #fff;
+  padding: 18px 47px;
+  font-weight: 700;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 3px;
+  transition: .5s;
+}
+.hire-btn a:hover{
+  background: transparent;
+  color: #282923;
+  border-radius: 0px;
 }
