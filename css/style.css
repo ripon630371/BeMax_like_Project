@@ -442,3 +442,69 @@ label {
   color: #282923;
   border-radius: 0px;
 }
+
+/*features-area  section*/
+.single-features {
+  position: relative;
+  overflow: hidden;
+}
+.features-img img {
+  width: 100%;
+  border-radius: 5px;
+}
+.features-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #F24259;
+  bottom: 0;
+  padding: 30px;
+  text-align: justify;
+  transform: translateY(80%);
+  transition: .5s;
+  padding-top: 15px;
+  border-radius: 9px;
+}
+.features-title {
+  margin-bottom: 25px;
+}
+.features-title i {
+  font-size: 25px;
+  line-height: 30px;
+  color: #fff;
+  margin-right: 20px;
+  float: left;
+}
+.features-title h3 {
+  color: #fff;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  display: inline-block;
+  position: relative;
+  top: 0px;
+}
+.features-content p {
+  color: #fff;
+  font-size: 15px;
+  line-height: 25px;
+}
+.single-features a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  border: 1px solid #fff;
+  display: inline-block;
+  padding: 5px 7px;
+  border-radius: 3px;
+  transition: .5s;
+}
+.single-features a:hover{
+  background: #fff;
+  color: #F24259;
+  border-radius: 0px;
+}
+.single-features:hover .features-content{
+  transform: translateY(0%);
+  border-radius: 0px;
+}
