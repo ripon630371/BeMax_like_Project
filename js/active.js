@@ -1,12 +1,13 @@
 $(document).ready(function(){
 
 	//slider-area owl-carousel...
-	$('.active-slider').owlCarousel({
+	$('.slider-active').owlCarousel({
 	    loop:true,
 	    nav:true,
 	    autoplay:true,
-	    autoplayTimeout:4000,
-	    smartSpeed:1000,
+	    navText: ['<i class="fas fa-angle-left"></i>','<i class="fas fa-angle-right"></i>'],
+	    autoplayTimeout:3000,
+	    smartSpeed:2000,
 	    responsive:{
 	        0:{
 	            items:1
