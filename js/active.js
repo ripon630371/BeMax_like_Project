@@ -20,5 +20,8 @@ $(document).ready(function(){
 	        }
 	    }
 	})
-
+	//skillbar section plagins....
+	$('.skillbar').skillBars({
+	  // options here
+	});
 })
