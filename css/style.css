@@ -282,7 +282,9 @@ label {
   top: 34px;
   width: 1px;
 }
-
+.header-area {
+  height: 170px;
+}
 /*search form*/
 .search-form {
   background: #222 none repeat scroll 0 0;
@@ -398,6 +400,11 @@ label {
   color: #fff;
 }
 /*agency-content section*/
+.sup-img img {
+  height: 100%;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
 .agency-content {
   text-align: center;
 }
@@ -665,4 +672,59 @@ label {
   font-size: 16px;
   margin-top: 5px;
 }
-    
+  
+/*our services area section*/   
+.section-title h2 {
+  position: relative;
+  padding: 0 0 0 15px;
+  line-height: 1;
+  border-left: 1px solid #eee;
+  letter-spacing: 2px;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding-bottom: 20px;
+}
+.section-title h2 span{
+  font-weight: 200;
+  padding-bottom: 5px;
+  color: #F24259;
+}
+.section-title h2::before {
+  position: absolute;
+  content: "";
+  background: #F24259;
+  height: 2px;
+  width: 120px;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+/*services area section*/ 
+.single-service {
+  display: flex;
+}
+.service-icon i {
+  background: #F24259;
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  text-align: center;
+  color: #fff;
+  font-size: 26px;
+}
+.service-content h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.service-content p {
+  font-size: 15px;
+  line-height: 26px;
+  color: #666;
+  margin: 0px;
+}
+.service-content {
+  padding-left: 25px;
+}
