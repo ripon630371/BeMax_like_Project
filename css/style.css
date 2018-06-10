@@ -351,8 +351,8 @@ label {
   margin-bottom: 35px;
   text-transform: uppercase;
 }
-.slider-active{}
-.slider-active .owl-nav div {
+.nav-style{}
+.nav-style .owl-nav div {
   background: #F24259 none repeat scroll 0 0;
   font-size: 20px;
   height: 50px;
@@ -367,22 +367,22 @@ label {
   opacity: 0;
   visibility: hidden;;
 }
-.slider-active .owl-nav div.owl-next {
+.nav-style .owl-nav div.owl-next {
   left: auto;
   right: 30px;
 }
-.slider-active:hover .owl-nav div{
+.nav-style:hover .owl-nav div{
   opacity: 1;
   visibility: visible
 }
-.slider-active .owl-dots {
+.nav-style .owl-dots {
   bottom: 35px;
   left: 0;
   position: absolute;
   right: 0;
   text-align: center;
 }
-.slider-active .owl-dot {
+.nav-style .owl-dot {
   background: #ddd none repeat scroll 0 0;
   border-radius: 50%;
   display: inline-block;
@@ -390,7 +390,7 @@ label {
   margin: 0 2px;
   width: 10px;
 }
-.slider-active .owl-dot.active {
+.nav-style .owl-dot.active {
   background: #F24259;
 }
 .fas.fa-angle-left {
@@ -727,4 +727,90 @@ label {
 }
 .service-content {
   padding-left: 25px;
+}
+/*project area section*/
+.project-thum img {
+  width: 100%;
+}
+.project-thum {
+  position: relative;
+}
+.project-thum:before{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  background: #F24259;
+  transition: .5s;
+  opacity: 0;
+}
+.project-items:hover .project-thum:before{
+  opacity: 1;
+}
+.project-items {
+  position: relative;
+  margin-bottom: 30px;
+}
+.project-content {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  transform: translateY(-50%);
+  transition: .5s;
+  visibility: hidden;
+  opacity: 0;
+}
+.project-items:hover .project-content{
+  visibility: visible;
+  opacity: 1;
+}
+.project-thum::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  background: #F24259;
+  transition: .5s;
+  height: 100%;
+  width: 100%;
+}
+.project-content h4 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.project-content span {
+  font-size: 13px;
+  color: #cccccc;
+}
+/*----project botton content--*/
+.project-button-content {
+  text-align: center;
+}
+.project-button-content h2 {
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+  text-transform: capitalize;
+}
+.project-button-content span {
+  color: #F24259;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.project-button-content p {
+  font-size: 15px;
+  color: #666;
+  line-height: 1.6;
+  word-spacing: 1px;
+  margin-top: 22px;
+}
+.project-active.nav-style .owl-nav div {
+  left: -25px;
+}
+.project-active.nav-style .owl-nav div.owl-next {
+  right: -1148px;
+  margin: auto;
 }
