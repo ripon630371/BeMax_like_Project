@@ -283,7 +283,7 @@ label {
   width: 1px;
 }
 .header-area {
-  height: 170px;
+  height: 128px;
 }
 /*search form*/
 .search-form {
@@ -701,7 +701,7 @@ label {
   right: 0;
   margin: auto;
 }
-/*services area section*/ 
+/*services area section*/
 .single-service {
   display: flex;
 }
@@ -813,4 +813,75 @@ label {
 .project-active.nav-style .owl-nav div.owl-next {
   right: -1148px;
   margin: auto;
+}
+
+/*why choose area section*/
+.chosse-area{
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.choose-head h4{
+  position: relative;
+  padding: 0 0 0 15px;
+  line-height: 1;
+  border-left: 1px solid #eee;
+  letter-spacing: 2px;
+  font-size: 38px;
+  font-weight: 700;
+}
+.choose-head h4 span{
+  font-weight: 200;
+  padding-bottom: 5px;
+  color: #F24259;
+}
+.choose-head h4:before {
+  content: '';
+  width: 1px;
+  height: 35px;
+  background: #F24259;
+  position: absolute;
+  left: -1px;
+  bottom: 0;
+}
+.video-bg{
+position: relative;
+}
+.video-bg a {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  text-align: center;
+  right: 0;
+  font-size: 62px;
+  color: #F24259;
+}
+.video-bg img {
+  width: 100%;
+}
+.chosse-list h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+}
+.chosse-list h3 i {
+  color: #F24259;
+  margin-right: 15px;
+  font-size: 30px;
+}
+.chosse-list p {
+  font-size: 18px;
+  color: #000;
+  line-height: 1.6;
+  word-spacing: 1px;
+  text-align: justify;
+}
+.custom-css{
+  background: #E8CDAF;
+  padding: 22px;
+  transition: .5s;
+}
+.custom-css:hover {
+  box-shadow: 2px 5px 7px 0px gray;
 }

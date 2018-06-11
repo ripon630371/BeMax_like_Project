@@ -44,7 +44,12 @@ $(document).ready(function(){
 	            items:4
 	        }
 	    }
-	})
+	});
+	// magnificPopup
+    $('.popup-video').magnificPopup({
+        type: 'iframe'
+        // other options
+    });
 
 	
 })
