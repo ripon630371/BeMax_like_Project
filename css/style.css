@@ -829,11 +829,13 @@ label {
   letter-spacing: 2px;
   font-size: 38px;
   font-weight: 700;
+  text-transform: capitalize;
 }
 .choose-head h4 span{
   font-weight: 200;
   padding-bottom: 5px;
   color: #F24259;
+  text-transform: capitalize;
 }
 .choose-head h4:before {
   content: '';
@@ -884,4 +886,91 @@ position: relative;
 }
 .custom-css:hover {
   box-shadow: 2px 5px 7px 0px gray;
+}
+/*blog-area section*/
+.blog-thum {
+  position: relative;
+  float: left;
+  margin-right: 18px;
+}
+.blog-thum span {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #F24259;
+  padding: 8px 12px;
+  line-height: 1;
+  width: 100%;
+  font-size: 16px;
+  color: #fff;
+}
+.blog-content h3 {
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 10px;
+  display: block;
+  font-weight: 700;
+}
+.blog-content p {
+  font-size: 14px;
+  color: #666666;
+  line-height: 1.6;
+  word-spacing: 1px;
+  text-align: justify;
+}
+.blog-content span i {
+  margin-right: 7px;
+  color: #F24259;
+}
+.blog-content span {
+  font-size: 13px;
+  color: #555555;
+}
+.blog-content {
+  overflow: hidden;
+}
+.blog-content a {
+  color: #555555;
+  font-size: 14px;
+  margin-left: 5px;
+}
+.blog-content a i {
+  margin-right: 5px;
+  color: #F24259;
+}
+.blog-right-items{
+  position: relative;
+}
+.blog-right-items p{
+  font-size: 14px;
+  color: #666666;
+  line-height: 1.6;
+  word-spacing: 1px;
+  text-align: justify;
+}
+.blog-right-items i {
+  position: absolute;
+  top: -17px;
+  left: -11px;
+  font-size: 20px;
+  color: #F24259;
+}
+.blog-right-items img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  line-height: 70px;
+  float: left;
+  margin-right: 25px;
+}
+.blog-right-items h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 25px;
+  text-transform: capitalize;
+}
+.blog-right-items span {
+  font-size: 15px;
+  font-weight: 700;
+  color: #F24259;
 }
