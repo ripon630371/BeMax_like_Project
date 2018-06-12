@@ -873,7 +873,7 @@ position: relative;
   font-size: 30px;
 }
 .chosse-list p {
-  font-size: 18px;
+  font-size: 16px;
   color: #000;
   line-height: 1.6;
   word-spacing: 1px;
@@ -972,5 +972,115 @@ position: relative;
 .blog-right-items span {
   font-size: 15px;
   font-weight: 700;
+  color: #F24259;
+}
+/*footer-area section*/
+.footer-bg{
+  background: #171a21;
+}
+.footer-widget img {
+  margin-bottom: 30px;
+}
+.footer-widget p {
+  font-size: 15px;
+  color: #ddd;
+  line-height: 1.6;
+  word-spacing: 1px;
+  text-align: justify;
+  margin-bottom: 25px;
+}
+.widget-icon a {
+  font-size: 18px;
+  background: #1b2334;
+  color: #fff;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+  margin-left: 10px;
+  border-radius: 50%;
+  transition: .5s;
+}
+.widget-icon a:hover{
+  background: #F24259;
+  color: #fff;
+}
+.footer-widget h3 {
+  font-size: 20px;
+  color: #F24259;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+ul.footer-ul li{
+
+}
+ul.footer-ul li a {
+  font-size: 15px;
+  color: #ddd;
+  font-weight: 700;
+  line-height: 30px;
+  position: relative;
+  padding-left: 15px;
+}
+ul.footer-ul li a::before {
+  position: absolute;
+  content: "";
+  background: #F24259;
+  height: 8px;
+  width: 8px;
+  top: 8px;
+  left: -11px;
+}
+.contact-list li {
+  color: #ddd;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.contact-email p{
+  font-size: 15px;
+  color: #ddd;
+  line-height: 1.6;
+  word-spacing: 1px;
+  text-align: justify;
+  margin-bottom: 25px;
+}
+.footer-widget form {
+  position: relative;
+  margin-top: 50px;
+}
+.footer-widget input {
+  border: 0;
+  padding: 0px 15px;
+  height: 40px;
+  width: 100%;
+  background: #2f3138;
+  color: #fff;
+}
+.footer-widget button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border: 0;
+  height: 100%;
+  padding: 0px 7px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  background: #F24259;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #F24259;
+}
+.footer-widget input::-moz-placeholder { /* Firefox 19+ */
+  color: #F24259;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #F24259;
+}
+:-moz-input-placeholder { /* IE 10+ */
   color: #F24259;
 }
